@@ -101,9 +101,16 @@ public:
       {
 	_theoColor = kBlue;
         _expCircleColor = kBlack;
-         _expFillColor = kWhite;
-	 _expMarkerType = kOpenCircle;
+        _expFillColor = kWhite;
+	_expMarkerType = kOpenCircle;
 
+      } else if (_type == 14)
+      {
+	_theoColor = kBlue;
+        _expCircleColor = kRed;
+        _expFillColor = kRed;
+        _expMarkerType = kFullTriangleUp;
+      
       } else if (_type == 5)
       {
 	_theoColor = kBlue;
@@ -230,61 +237,61 @@ public:
 
 	}
 
-	TGraphErrors _dataTotPointTh(1);
-	_dataTotPointTh.SetPoint(1, _ypos*0.45, _sigma_theo-1 );
-	_dataTotPointTh.SetPointError( 1.0, _e_tot, 0 );
-	_dataTotPointTh.SetLineWidth(1);
-	_dataTotPointTh.SetLineColor(kBlack);
-	_dataTotPointTh.SetMarkerSize(0);
-	_dataTotPointTh.DrawClone("e");	
+	//TGraphErrors _dataTotPointTh(1);
+	//_dataTotPointTh.SetPoint(1, _ypos*0.45, _sigma_theo-1 );
+	//_dataTotPointTh.SetPointError( 1.0, _e_tot, 0 );
+	//_dataTotPointTh.SetLineWidth(1);
+	//_dataTotPointTh.SetLineColor(kBlack);
+	//_dataTotPointTh.SetMarkerSize(0);
+	//_dataTotPointTh.DrawClone("e");	
 
-	TGraphErrors _dataTotPoint(1);
-	_dataTotPoint.SetPoint(1, _ypos*.45, _sigma_theo-1 );
-	_dataTotPoint.SetPointError( 1.0, _e_tot/2, 0 );
-	_dataTotPoint.SetLineWidth(1);
-	_dataTotPoint.SetLineColor(kRed);
-	_dataTotPoint.SetMarkerSize(0);
-	_dataTotPoint.DrawClone("e");	
+	//TGraphErrors _dataTotPoint(1);
+	//_dataTotPoint.SetPoint(1, _ypos*.45, _sigma_theo-1 );
+	//_dataTotPoint.SetPointError( 1.0, _e_tot/2, 0 );
+	//_dataTotPoint.SetLineWidth(1);
+	//_dataTotPoint.SetLineColor(kRed);
+	//_dataTotPoint.SetMarkerSize(0);
+	//_dataTotPoint.DrawClone("e");	
 
 
- 	TMarker _dataPoint( _ypos*.45, _sigma_theo-1, kFullCircle );
- 	_dataPoint.SetMarkerSize(markerSize);
-	_dataPoint.SetMarkerColor(kWhite);
-	_dataPoint.DrawClone();
-	_dataPoint.SetMarkerStyle(kOpenCircle);
- 	_dataPoint.SetMarkerColor(kBlack);
-	_dataPoint.DrawClone();
+ 	//TMarker _dataPoint( _ypos*.45, _sigma_theo-1, kFullCircle );
+ 	//_dataPoint.SetMarkerSize(markerSize);
+	//_dataPoint.SetMarkerColor(kWhite);
+	//_dataPoint.DrawClone();
+	//_dataPoint.SetMarkerStyle(kOpenCircle);
+ 	//_dataPoint.SetMarkerColor(kBlack);
+	//_dataPoint.DrawClone();
 	
 
-	TGraphErrors _dataTotPoint8Th(1);
-	_dataTotPoint8Th.SetPoint(1, _ypos*0.555, _sigma_theo-1 );
-	_dataTotPoint8Th.SetPointError( 1, _e_tot, 0 );
-	_dataTotPoint8Th.SetLineWidth(1);
-	_dataTotPoint8Th.SetLineColor(kBlack);
-	_dataTotPoint8Th.SetMarkerSize(0);
-	_dataTotPoint8Th.DrawClone("e");	
+	//TGraphErrors _dataTotPoint8Th(1);
+	//_dataTotPoint8Th.SetPoint(1, _ypos*0.555, _sigma_theo-1 );
+	//_dataTotPoint8Th.SetPointError( 1, _e_tot, 0 );
+	//_dataTotPoint8Th.SetLineWidth(1);
+	//_dataTotPoint8Th.SetLineColor(kBlack);
+	//_dataTotPoint8Th.SetMarkerSize(0);
+	//_dataTotPoint8Th.DrawClone("e");	
 
-	TGraphErrors _dataTotPoint8(1);
-	_dataTotPoint8.SetPoint(1, _ypos*0.555, _sigma_theo-1 );
-	_dataTotPoint8.SetPointError( 1, _e_tot/2, 0 );
-	_dataTotPoint8.SetLineWidth(1);
-	_dataTotPoint8.SetLineColor(kRed);
-	_dataTotPoint8.SetMarkerSize(0);
-	_dataTotPoint8.DrawClone("e");	
+	//TGraphErrors _dataTotPoint8(1);
+	//_dataTotPoint8.SetPoint(1, _ypos*0.555, _sigma_theo-1 );
+	//_dataTotPoint8.SetPointError( 1, _e_tot/2, 0 );
+	//_dataTotPoint8.SetLineWidth(1);
+	//_dataTotPoint8.SetLineColor(kRed);
+	//_dataTotPoint8.SetMarkerSize(0);
+	//_dataTotPoint8.DrawClone("e");	
 
 
- 	TMarker _dataPoint8( _ypos*0.555, _sigma_theo-1, kFullCircle );
- 	_dataPoint8.SetMarkerSize(markerSize);
-	_dataPoint8.SetMarkerStyle(kFullTriangleUp);
- 	_dataPoint8.SetMarkerColor(kRed);
-	_dataPoint8.DrawClone();
-	_dataPoint8.SetMarkerStyle(kFullTriangleUp);
- 	_dataPoint8.SetMarkerColor(kRed);
-	_dataPoint8.DrawClone();
+ 	//TMarker _dataPoint8( _ypos*0.555, _sigma_theo-1, kFullCircle );
+ 	//_dataPoint8.SetMarkerSize(markerSize);
+	//_dataPoint8.SetMarkerStyle(kFullTriangleUp);
+ 	//_dataPoint8.SetMarkerColor(kRed);
+	//_dataPoint8.DrawClone();
+	//_dataPoint8.SetMarkerStyle(kFullTriangleUp);
+ 	//_dataPoint8.SetMarkerColor(kRed);
+	//_dataPoint8.DrawClone();
 
-	
+        // This block is for drawing the 13 TeV measurement marker 	
 	TGraphErrors _dataTotPoint13Th(1);
-	_dataTotPoint13Th.SetPoint(1, _ypos*0.66, _sigma_theo-1 );
+	_dataTotPoint13Th.SetPoint(1, _ypos*0.55, _sigma_theo-1 );
 	_dataTotPoint13Th.SetPointError( 1, _e_tot, 0 );
 	_dataTotPoint13Th.SetLineWidth(1);
 	_dataTotPoint13Th.SetLineColor(kBlack);
@@ -292,7 +299,7 @@ public:
 	_dataTotPoint13Th.DrawClone("e");	
 
 	TGraphErrors _dataTotPoint13(1);
-	_dataTotPoint13.SetPoint(1, _ypos*0.66, _sigma_theo-1 );
+	_dataTotPoint13.SetPoint(1, _ypos*0.55, _sigma_theo-1 );
 	_dataTotPoint13.SetPointError( 1, _e_tot/2, 0 );
 	_dataTotPoint13.SetLineWidth(1);
 	_dataTotPoint13.SetLineColor(kRed);
@@ -300,7 +307,7 @@ public:
 	_dataTotPoint13.DrawClone("e");	
 
 
- 	TMarker _dataPoint13( _ypos*0.66, _sigma_theo-1, kFullCircle );
+ 	TMarker _dataPoint13( _ypos*0.55, _sigma_theo-1, kFullCircle );
  	_dataPoint13.SetMarkerSize(markerSize);
 	_dataPoint13.SetMarkerColor(kBlack);
 	_dataPoint13.DrawClone();
@@ -308,27 +315,53 @@ public:
  	_dataPoint13.SetMarkerColor(kBlack);
 	_dataPoint13.DrawClone();
 
+	// This block is for drawing the 13p6 TeV measurement marker
+	TGraphErrors _dataTotPoint13p6Th(1);
+        _dataTotPoint13p6Th.SetPoint(1, _ypos*0.75, _sigma_theo-1 );
+        _dataTotPoint13p6Th.SetPointError( 1, _e_tot, 0 );
+        _dataTotPoint13p6Th.SetLineWidth(1);
+        _dataTotPoint13p6Th.SetLineColor(kBlack);
+        _dataTotPoint13p6Th.SetMarkerSize(0);
+        _dataTotPoint13p6Th.DrawClone("e");
 
+        TGraphErrors _dataTotPoint13p6(1);
+        _dataTotPoint13p6.SetPoint(1, _ypos*0.75, _sigma_theo-1 );
+        _dataTotPoint13p6.SetPointError( 1, _e_tot/2, 0 );
+        _dataTotPoint13p6.SetLineWidth(1);
+        _dataTotPoint13p6.SetLineColor(kRed);
+        _dataTotPoint13p6.SetMarkerSize(0);
+        _dataTotPoint13p6.DrawClone("e");
+
+
+        TMarker _dataPoint13p6( _ypos*0.75, _sigma_theo-1, kFullCircle );
+        _dataPoint13p6.SetMarkerSize(markerSize);
+        _dataPoint13p6.SetMarkerStyle(kFullTriangleUp);
+        _dataPoint13p6.SetMarkerColor(kRed);
+        _dataPoint13p6.DrawClone();
+        _dataPoint13p6.SetMarkerStyle(kFullTriangleUp);
+        _dataPoint13p6.SetMarkerColor(kRed);
+        _dataPoint13p6.DrawClone();
 	
 	txt[ntxt] = "7,        8,       13     TeV CMS measurements";
 	if (version==5) txt[ntxt] = "5.02,       7,          8,         13     TeV CMS measurements";
-	if (version==7) txt[ntxt] = "13,         13.6          TeV measurements";
+	if (version==7) txt[ntxt] = "      13,                      13.6       TeV measurements";
 	txtSize[ntxt] = 0.03;
 	txtX[ntxt] = _ypos*0.52;
 	if (version==5) txtX[ntxt] = _ypos*0.32;
 	if (version==6) txtX[ntxt] = _ypos*0.442;
-	if (version==7) txtX[ntxt] = _ypos*0.60;
+	if (version==7) txtX[ntxt] = _ypos*0.50;
 	txtY[ntxt] = _sigma_theo;
  	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
 	ntxt++;
 
-	txt[ntxt] = "inner unc. (stat), outer (+sys)";
+	//txt[ntxt] = "inner unc. (stat), outer (+sys)";
+	txt[ntxt] = "";
 	txtSize[ntxt] = 0.03;
 	txtX[ntxt] = _ypos*0.52;
 	if (version==5) txtX[ntxt] = _ypos*0.719;
 	if (version==6) txtX[ntxt] = _ypos*0.721;
-	if (version==7) txtX[ntxt] = _ypos*0.42;
+	if (version==7) txtX[ntxt] = _ypos*0.75;
 	txtY[ntxt] = _sigma_theo -1;
  	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
@@ -694,6 +727,11 @@ SigmaR(float ymin=0.009, float ymax=900000 )
   if  (iChan == k_Zgg8) type = 8;
   if  (iChan == k_Wgg13) type = 13;
   if  (iChan == k_Zgg13) type = 13;
+  if  (iChan == k_ZHWW13) type = 13;
+  if  (iChan == k_nrWWZ13) type = 13;
+  if  (iChan == k_WWZ13p6) type = 14;
+  if  (iChan == k_ZHWW13p6) type = 14;
+  if  (iChan == k_nrWWZ13p6) type = 14;
 
 
        
