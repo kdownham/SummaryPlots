@@ -1,11 +1,9 @@
 // standard versions 0 with verticle stacking of QCD results ,1 without verticle stacking, 2 QCD EWK only, 3 QCD rad only
-enum { k_tot=0, k_tot8, k_tot13, k_in, k_cmsin, k_cmsin13, k_in8, k_in13, k_el, k_el8, k_el13, k_incj276, k_incj, k_incj8, k_incj13, k_incg, k_gj, k_W276, k_Wp276, k_Wm276, k_W276fid, k_Wp276fid, k_Wm276fid, k_W5, k_Wp5,  k_Wm5, k_W5fid,  k_Wp5fid, k_Wm5fid, k_W, k_Wp, k_Wm, k_W8, k_Wp8, k_Wm8,  k_W8fid, k_Wp8fid, k_Wm8fid, k_W13, k_Wp13, k_Wm13,  k_W13fid, k_Wp13fid, k_Wm13fid, k_W8n, k_W1jet, k_W2jet, k_W3jet, k_W4jet, k_W1jetn, k_W1jet8n, k_W1jet13, k_W2jetn, k_W2jet8n, k_W2jet13, k_W3jetn, k_W3jet8n, k_W3jet13, k_W4jetn, k_W4jet8n, k_W4jet13, k_W5jetn, k_W5jet8n, k_W5jet13, k_W6jetn, k_W6jet8n, k_W6jet13, k_W7jet8n, k_W1cjet, k_W1cjet8, k_W1cjet13, k_W2bjet, k_W2bjet8, k_Z276, k_Z5, k_Z5fid, k_Z, k_Zfid, k_Z8, k_Z8fid, k_Z13, k_Z13fid, k_Z136, k_Z136fid, k_Z1jet, k_Z2jet, k_Z3jet, k_Z4jet, k_Z1jetn, k_Z1jet8, k_Z1jet13, k_Z2jetn, k_Z2jet8, k_Z2jet13, k_Z3jetn, k_Z3jet8, k_Z3jet13, k_Z4jetn, k_Z4jet8, k_Z4jet13, k_Z5jetn, k_Z5jet8, k_Z5jet13, k_Z6jetn, k_Z6jet8, k_Z6jet13, k_Z7jet8, k_Z1cjet8, k_Z1cjet13, k_Z1bjet, k_Z1bjet8, k_Z1bjet13, k_Z2bjet, k_Z2bjet8, k_Z2bjet13,  k_gg, k_ggnew, k_Wg, k_Wg13, k_Wg2jet13, k_Zg, k_Zg8, k_Zg2jet13, k_WV, k_WW5, k_WW, k_WW8, k_WW13, k_WW13fid, k_WW0jet13, k_WW1jet13, k_WW2jet13, k_WW136, k_WW136fid, k_WW0jet136, k_WW1jet136, k_WW2jet136, k_WZ5, k_WZ, k_WZ8, k_WZ13, k_WZ13fid, k_WZ0jet8, k_WZ1jet8, k_WZ2jet8, k_WZ3jet8, k_ZZ5, k_ZZ, k_ZZ8, k_ZZ13, k_ZZ13fid, k_ZZ0jet8, k_ZZ0jet13, k_ZZ1jet8, k_ZZ1jet13, k_ZZ2jet8, k_ZZ2jet13, k_ZZ3jet8, k_ZZ3jet13, k_VBFW8, k_VBFW13, k_VBFZ, k_VBFZ8, k_VBFZ13, k_VVV13, k_WWW13, k_WWZ13, k_WZZ13, k_ZZZ13, k_WVg, k_Wgg8, k_Wgg13, k_WWg13, k_Zgg8, k_Zgg13, k_EWKWV13, k_EWKWg8, k_EWKWg13, k_exWW, k_exWW8, k_EWKWW13, k_SSWW8, k_SSWW13, k_EWKZg8, k_EWKZg13, k_EWKWZ13, k_EWKZZ13, k_tt5, k_tt, k_tt8, k_tt13, k_tt136, k_tt0jet13, k_tt1jet, k_tt1jet8, k_tt1jet13, k_tt2jet, k_tt2jet8, k_tt2jet13, k_tt3jet, k_tt3jet8, k_tt3jet13, k_tt4jet13, k_tt2cjet13, k_tt2bjet13, k_t, k_t8, k_t13, k_tW, k_tW8, k_tW13, k_tW136, k_tschan, k_tschan8, k_ttg8, k_ttg13, k_tZq8, k_tZq13, k_ttZ, k_ttZ8, k_ttZ13, k_tg13, k_ttW8, k_ttW13, k_tWZ13, k_tttt8, k_tttt13, k_HZZ, k_H1jet, k_ggH, k_ggH8, k_ggH13, k_ggHgg13, k_VBFH, k_VBFH8, k_VBFH13, k_VH, k_VH8, k_VH13, k_WH13, k_ZH13, k_ttH, k_ttH8, k_ttH13, k_tH13, k_HHbbtautau8, k_HHbbgg8, k_HHComb8, k_HHbbbb13, k_HHComb13, k_HHWWbb13, k_HHbbtautau13, k_HHbbgg13, k_Hgg, k_Hgg8, k_H0jet13, k_H1jet13, k_H2jet13, k_H3jet13, k_H4jet13, k_nChan };
-
+enum { k_tot=0, k_tot8, k_tot13, k_in, k_cmsin, k_cmsin13, k_in8, k_in13, k_el, k_el8, k_el13, k_incj276, k_incj, k_incj8, k_incj13, k_incg, k_gj, k_W276, k_Wp276, k_Wm276, k_W276fid, k_Wp276fid, k_Wm276fid, k_W5, k_Wp5,  k_Wm5, k_W5fid,  k_Wp5fid, k_Wm5fid, k_W, k_Wp, k_Wm, k_W8, k_Wp8, k_Wm8,  k_W8fid, k_Wp8fid, k_Wm8fid, k_W13, k_Wp13, k_Wm13,  k_W13fid, k_Wp13fid, k_Wm13fid, k_W8n, k_W1jet, k_W2jet, k_W3jet, k_W4jet, k_W1jetn, k_W1jet8n, k_W1jet13, k_W2jetn, k_W2jet8n, k_W2jet13, k_W3jetn, k_W3jet8n, k_W3jet13, k_W4jetn, k_W4jet8n, k_W4jet13, k_W5jetn, k_W5jet8n, k_W5jet13, k_W6jetn, k_W6jet8n, k_W6jet13, k_W7jet8n, k_W1cjet, k_W1cjet8, k_W1cjet13, k_W2bjet, k_W2bjet8, k_Z276, k_Z5, k_Z5fid, k_Z, k_Zfid, k_Z8, k_Z8fid, k_Z13, k_Z13fid, k_Z136, k_Z136fid, k_Z1jet, k_Z2jet, k_Z3jet, k_Z4jet, k_Z1jetn, k_Z1jet8, k_Z1jet13, k_Z2jetn, k_Z2jet8, k_Z2jet13, k_Z3jetn, k_Z3jet8, k_Z3jet13, k_Z4jetn, k_Z4jet8, k_Z4jet13, k_Z5jetn, k_Z5jet8, k_Z5jet13, k_Z6jetn, k_Z6jet8, k_Z6jet13, k_Z7jet8, k_Z1cjet8, k_Z1cjet13, k_Z1bjet, k_Z1bjet8, k_Z1bjet13, k_Z2bjet, k_Z2bjet8, k_Z2bjet13,  k_gg, k_ggnew, k_Wg, k_Wg13, k_Wg2jet13, k_Zg, k_Zg8, k_Zg2jet13, k_WV, k_WW5, k_WW, k_WW8, k_WW13, k_WW13fid, k_WW0jet13, k_WW1jet13, k_WW2jet13, k_WW136, k_WW136fid, k_WW0jet136, k_WW1jet136, k_WW2jet136, k_WZ5, k_WZ, k_WZ8, k_WZ13, k_WZ13fid, k_WZ0jet8, k_WZ1jet8, k_WZ2jet8, k_WZ3jet8, k_ZZ5, k_ZZ, k_ZZ8, k_ZZ13, k_ZZ13fid, k_ZZ0jet8, k_ZZ0jet13, k_ZZ1jet8, k_ZZ1jet13, k_ZZ2jet8, k_ZZ2jet13, k_ZZ3jet8, k_ZZ3jet13, k_VBFW8, k_VBFW13, k_VBFZ, k_VBFZ8, k_VBFZ13, k_VVV13, k_WWW13, k_WWZ13, k_WWZ13p6, k_ZHWW13, k_ZHWW13p6, k_nrWWZ13, k_nrWWZ13p6, k_WZZ13, k_ZZZ13, k_WVg, k_Wgg8, k_Wgg13, k_WWg13, k_Zgg8, k_Zgg13, k_EWKWV13, k_EWKWg8, k_EWKWg13, k_exWW, k_exWW8, k_EWKWW13, k_SSWW8, k_SSWW13, k_EWKZg8, k_EWKZg13, k_EWKWZ13, k_EWKZZ13, k_tt5, k_tt, k_tt8, k_tt13, k_tt136, k_tt0jet13, k_tt1jet, k_tt1jet8, k_tt1jet13, k_tt2jet, k_tt2jet8, k_tt2jet13, k_tt3jet, k_tt3jet8, k_tt3jet13, k_tt4jet13, k_tt2cjet13, k_tt2bjet13, k_t, k_t8, k_t13, k_tW, k_tW8, k_tW13, k_tW136, k_tschan, k_tschan8, k_ttg8, k_ttg13, k_tZq8, k_tZq13, k_ttZ, k_ttZ8, k_ttZ13, k_tg13, k_ttW8, k_ttW13, k_tWZ13, k_tttt8, k_tttt13, k_HZZ, k_H1jet, k_ggH, k_ggH8, k_ggH13, k_ggHgg13, k_VBFH, k_VBFH8, k_VBFH13, k_VH, k_VH8, k_VH13, k_WH13, k_ZH13, k_ttH, k_ttH8, k_ttH13, k_tH13, k_HHbbtautau8, k_HHbbgg8, k_HHComb8, k_HHbbbb13, k_HHComb13, k_HHWWbb13, k_HHbbtautau13, k_HHbbgg13, k_Hgg, k_Hgg8, k_H0jet13, k_H1jet13, k_H2jet13, k_H3jet13, k_H4jet13, k_nChan };
 // Should come up with a better solution but for now just search and replace to make a strong array
 
 vector<string> chanLabel(k_nChan);
-chanLabel = { "tot", "tot8", "tot13", "in", "cmsin", "cmsin13", "in8", "in13", "el", "el8", "el13", "incj276", "incj", "incj8", "incj13", "incg", "gj", "W276",  "Wp276", "Wm276", "W276fid", "Wp276fid", "Wm276fid", "W5", "Wp5", "Wm5", "W5fid", "Wp5fid", "Wm5fid", "W",  "Wp", "Wm", "W8", "Wp8", "Wm8", "W8fid", "Wp8fid", "Wm8fid", "W13", "Wp13","Wm13", "W13fid", "Wp13fid","Wm13fid", "W8n", "W1jet", "W2jet", "W3jet", "W4jet", "W1jetn", "W1jet8n", "W1jet13", "W2jetn", "W2jet8n", "W2jet13", "W3jetn", "W3jet8n", "W3jet13", "W4jetn", "W4jet8n", "W4jet13", "W5jetn", "W5jet8n", "W5jet13", "W6jetn", "W6jet8n", "W6jet13", "W7jet8n", "W1cjet", "W1cjet8", "W1cjet13", "W2bjet", "W2bjet8", "Z276", "Z5", "Z5fid", "Z", "Zfid", "Z8", "Z8fid", "Z13", "Z13fid", "Z136", "Z136fid", "Z1jet", "Z2jet", "Z3jet", "Z4jet", "Z1jetn", "Z1jet8", "Z1jet13", "Z2jetn", "Z2jet8", "Z2jet13", "Z3jetn", "Z3jet8", "Z3jet13", "Z4jetn", "Z4jet8", "Z4jet13", "Z5jetn", "Z5jet8", "Z5jet13", "Z6jetn", "Z6jet8", "Z6jet13", "Z7jet8", "Z1cjet8", "Z1cjet13", "Z1bjet", "Z1bjet8", "Z1bjet13", "Z2bjet", "Z2bjet8", "Z2bjet13", "gg", "ggnew", "Wg", "Wg13", "Wg2jet13", "Zg", "Zg8", "Zg2jet13", "WV", "WW5", "WW", "WW8", "WW13", "WW13fid", "WW0jet13", "WW1jet13", "WW2jet13", "WW136", "WW136fid", "WW0jet136", "WW1jet136", "WW2jet136",  "WZ5", "WZ", "WZ8", "WZ13", "WZ13fid", "WZ0jet8", "WZ1jet8", "WZ2jet8", "WZ3jet8", "ZZ5", "ZZ", "ZZ8", "ZZ13", "ZZ13fid", "ZZ0jet8", "ZZ0jet13", "ZZ1jet8", "ZZ1jet13", "ZZ2jet8", "ZZ2jet13", "ZZ3jet8", "ZZ3jet13", "VBFW8", "VBFW13", "VBFZ", "VBFZ8", "VBFZ13", "VVV13", "WWW13", "WWZ13", "WZZ13", "ZZZ13", "WVg", "Wgg8", "Wgg13", "WWg13", "Zgg8", "Zgg13", "EWKWV13", "EWKWg8", "EWKWg13", "exWW", "exWW8", "EWKWW13", "SSWW8", "SSWW13", "EWKZg8", "EWKZg13", "EWKWZ13", "EWKZZ13", "tt5", "tt", "tt8", "tt13", "tt136", "tt0jet13", "tt1jet", "tt1jet8", "tt1jet13", "tt2jet", "tt2jet8", "tt2jet13", "tt3jet", "tt3jet8", "tt3jet13", "tt4jet13", "tt2cjet13", "tt2bjet13", "t", "t8", "t13", "tW", "tW8", "tW13", "tW136", "tschan", "tschan8", "ttg8", "ttg13", "tZq8", "tZq13", "ttZ", "ttZ8", "ttZ13", "tg13", "ttW8", "ttW13", "tWZ13", "tttt8", "tttt13", "HZZ", "H1jet", "ggH", "ggH8", "ggH13", "ggHgg13", "VBFH", "VBFH8", "VBFH13", "VH", "VH8", "VH13", "WH13", "ZH13", "ttH", "ttH8", "ttH13", "tH13", "HHbbtautau8", "HHbbgg8", "HHComb8", "HHbbbb13", "HHComb13", "HHWWbb13", "HHbbtautau13", "HHbbgg13", "Hgg", "Hgg8", "H0jet13", "H1jet13", "H2jet13", "H3jet13", "H4jet13"};
-
+chanLabel = { "tot", "tot8", "tot13", "in", "cmsin", "cmsin13", "in8", "in13", "el", "el8", "el13", "incj276", "incj", "incj8", "incj13", "incg", "gj", "W276",  "Wp276", "Wm276", "W276fid", "Wp276fid", "Wm276fid", "W5", "Wp5", "Wm5", "W5fid", "Wp5fid", "Wm5fid", "W",  "Wp", "Wm", "W8", "Wp8", "Wm8", "W8fid", "Wp8fid", "Wm8fid", "W13", "Wp13","Wm13", "W13fid", "Wp13fid","Wm13fid", "W8n", "W1jet", "W2jet", "W3jet", "W4jet", "W1jetn", "W1jet8n", "W1jet13", "W2jetn", "W2jet8n", "W2jet13", "W3jetn", "W3jet8n", "W3jet13", "W4jetn", "W4jet8n", "W4jet13", "W5jetn", "W5jet8n", "W5jet13", "W6jetn", "W6jet8n", "W6jet13", "W7jet8n", "W1cjet", "W1cjet8", "W1cjet13", "W2bjet", "W2bjet8", "Z276", "Z5", "Z5fid", "Z", "Zfid", "Z8", "Z8fid", "Z13", "Z13fid", "Z136", "Z136fid", "Z1jet", "Z2jet", "Z3jet", "Z4jet", "Z1jetn", "Z1jet8", "Z1jet13", "Z2jetn", "Z2jet8", "Z2jet13", "Z3jetn", "Z3jet8", "Z3jet13", "Z4jetn", "Z4jet8", "Z4jet13", "Z5jetn", "Z5jet8", "Z5jet13", "Z6jetn", "Z6jet8", "Z6jet13", "Z7jet8", "Z1cjet8", "Z1cjet13", "Z1bjet", "Z1bjet8", "Z1bjet13", "Z2bjet", "Z2bjet8", "Z2bjet13", "gg", "ggnew", "Wg", "Wg13", "Wg2jet13", "Zg", "Zg8", "Zg2jet13", "WV", "WW5", "WW", "WW8", "WW13", "WW13fid", "WW0jet13", "WW1jet13", "WW2jet13", "WW136", "WW136fid", "WW0jet136", "WW1jet136", "WW2jet136",  "WZ5", "WZ", "WZ8", "WZ13", "WZ13fid", "WZ0jet8", "WZ1jet8", "WZ2jet8", "WZ3jet8", "ZZ5", "ZZ", "ZZ8", "ZZ13", "ZZ13fid", "ZZ0jet8", "ZZ0jet13", "ZZ1jet8", "ZZ1jet13", "ZZ2jet8", "ZZ2jet13", "ZZ3jet8", "ZZ3jet13", "VBFW8", "VBFW13", "VBFZ", "VBFZ8", "VBFZ13", "VVV13", "WWW13", "WWZ13", "WWZ13p6", "ZHWW13", "ZHWW13p6", "nrWWZ13", "nrWWZ13p6", "WZZ13", "ZZZ13", "WVg", "Wgg8", "Wgg13", "WWg13", "Zgg8", "Zgg13", "EWKWV13", "EWKWg8", "EWKWg13", "exWW", "exWW8", "EWKWW13", "SSWW8", "SSWW13", "EWKZg8", "EWKZg13", "EWKWZ13", "EWKZZ13", "tt5", "tt", "tt8", "tt13", "tt136", "tt0jet13", "tt1jet", "tt1jet8", "tt1jet13", "tt2jet", "tt2jet8", "tt2jet13", "tt3jet", "tt3jet8", "tt3jet13", "tt4jet13", "tt2cjet13", "tt2bjet13", "t", "t8", "t13", "tW", "tW8", "tW13", "tW136", "tschan", "tschan8", "ttg8", "ttg13", "tZq8", "tZq13", "ttZ", "ttZ8", "ttZ13", "tg13", "ttW8", "ttW13", "tWZ13", "tttt8", "tttt13", "HZZ", "H1jet", "ggH", "ggH8", "ggH13", "ggHgg13", "VBFH", "VBFH8", "VBFH13", "VH", "VH8", "VH13", "WH13", "ZH13", "ttH", "ttH8", "ttH13", "tH13", "HHbbtautau8", "HHbbgg8", "HHComb8", "HHbbbb13", "HHComb13", "HHWWbb13", "HHbbtautau13", "HHbbgg13", "Hgg", "Hgg8", "H0jet13", "H1jet13", "H2jet13", "H3jet13", "H4jet13"};
 
 
 // Notes
@@ -282,20 +280,27 @@ chanGroup[k_W1jet] = "EW";
 
 
 
-  chanGroup[k_VVV13]="TB";
-  chanGroup[k_WWW13]="TB";
+  //chanGroup[k_VVV13]="TB";
+  //chanGroup[k_WWW13]="TB";
+  //chanGroup[k_WWZ13]="TB";
+  //chanGroup[k_WZZ13]="TB";
+  //chanGroup[k_ZZZ13]="TB";
+
+  //chanGroup[k_WVg]="TB";
+  //chanGroup[k_WWg13]="TB";
+
+
+  //chanGroup[k_Wgg8]="TB";
+  //chanGroup[k_Zgg8]="TB";
+  //chanGroup[k_Wgg13]="TB";
+  //chanGroup[k_Zgg13]="TB";
+  
   chanGroup[k_WWZ13]="TB";
-  chanGroup[k_WZZ13]="TB";
-  chanGroup[k_ZZZ13]="TB";
-
-  chanGroup[k_WVg]="TB";
-  chanGroup[k_WWg13]="TB";
-
-
-  chanGroup[k_Wgg8]="TB";
-  chanGroup[k_Zgg8]="TB";
-  chanGroup[k_Wgg13]="TB";
-  chanGroup[k_Zgg13]="TB";
+  chanGroup[k_WWZ13p6]="TB";
+  chanGroup[k_ZHWW13]="TB";
+  chanGroup[k_ZHWW13p6]="TB";
+  chanGroup[k_nrWWZ13]="TB";
+  chanGroup[k_nrWWZ13p6]="TB";
 
   chanGroup[k_exWW]="VBS";
   chanGroup[k_exWW8]="VBS";
@@ -1756,19 +1761,24 @@ if (version==10) {
 // Triboson
 if (version==7) {
 
-  plotChan[k_VVV13]=true;
-  plotChan[k_WWW13]=true;
+  //plotChan[k_VVV13]=true;
+  //plotChan[k_WWW13]=true;
+  plotChan[k_nrWWZ13]=true;
+  plotChan[k_ZHWW13]=true;
   plotChan[k_WWZ13]=true;
-  plotChan[k_WZZ13]=true;
+  plotChan[k_nrWWZ13p6]=true;
+  plotChan[k_ZHWW13p6]=true;
+  plotChan[k_WWZ13p6]=true;
+  //plotChan[k_WZZ13]=true;
 
-  //plotChan[k_ZZZ13]=true;
-  //plotChan[k_WVg]=true;
+  ////plotChan[k_ZZZ13]=true;
+  ////plotChan[k_WVg]=true;
 
-  plotChan[k_WWg13]=true;
-  plotChan[k_Wgg8]=true;
-  plotChan[k_Zgg8]=true;
-  plotChan[k_Wgg13]=true;
-  plotChan[k_Zgg13]=true;
+  //plotChan[k_WWg13]=true;
+  //plotChan[k_Wgg8]=true;
+  //plotChan[k_Zgg8]=true;
+  //plotChan[k_Wgg13]=true;
+  //plotChan[k_Zgg13]=true;
 }
 
 
@@ -9582,10 +9592,12 @@ chanMeasurement[k_VVV13] = "#scale[0.7]{VVV}";
   chanMeasurement[k_WWZ13] = "#scale[0.7]{WWZ}";
   if (exportExeFormat) chanMeasurement[k_WWZ13] = "WWZ";
   if (condenseFormat) chanMeasurement[k_WWZ13] = "VVV";
-  chanLumi[k_WWZ13] = "137 fb^{-1}";
-  chanCadi[k_WWZ13] = "SMP-19-014";
-  chanPreprint[k_WWZ13] = "2006.11191";
-  chanPublication[k_WWZ13] = "PRL 125 151802 (2020)";
+  chanLumi[k_WWZ13] = "138 fb^{-1}";
+  chanCadi[k_WWZ13] = "SMP-24-015";
+  //chanPreprint[k_WWZ13] = "2006.11191";
+  chanPreprint[k_WWZ13] = "";
+  //chanPublication[k_WWZ13] = "PRL 125 151802 (2020)";
+  chanPublication[k_WWZ13] = "";
 
   chanSigma[k_WWZ13]  =  300 * scale_; 
   chanEStatp[k_WWZ13]  =   120 * scale_;
@@ -9617,6 +9629,241 @@ chanMeasurement[k_VVV13] = "#scale[0.7]{VVV}";
   chanETheop[k_WWZ13] =  3.5 * scale_;
   chanETheom[k_WWZ13] =  3.5 * scale_;
   chanETheo[k_WWZ13]   =  (chanETheop[k_WWZ13]+chanETheom[k_WWZ13])/2.0;
+// Includes NLO WWZ and NNLO QCD + NLO EWK ZH No uncertainty given.
+
+  scale_ = 1.;
+
+// WWZ 13p6
+
+  scale_ = 0.001;
+  chanMeasurement[k_WWZ13p6] = "#scale[0.7]{WWZ}";
+  if (exportExeFormat) chanMeasurement[k_WWZ13p6] = "WWZ";
+  if (condenseFormat) chanMeasurement[k_WWZ13p6] = "VVV";
+  chanLumi[k_WWZ13p6] = "62 fb^{-1}";
+  chanCadi[k_WWZ13p6] = "SMP-24-015";
+  //chanPreprint[k_WWZ13p6] = "2006.11191";
+  chanPreprint[k_WWZ13p6] = "";
+  //chanPublication[k_WWZ13p6] = "PRL 125 151802 (2020)";
+  chanPublication[k_WWZ13p6] = "";
+
+  chanSigma[k_WWZ13p6]  =  300 * scale_;
+  chanEStatp[k_WWZ13p6]  =   120 * scale_;
+  chanEStatm[k_WWZ13p6]  =   100 * scale_;
+  chanEStat[k_WWZ13p6]  = ( chanEStatp[k_WWZ13p6] + chanEStatm[k_WWZ13p6])/2.0;
+
+  chanESystp[k_WWZ13p6]  =    50* scale_;
+  chanESystm[k_WWZ13p6]  =    40* scale_;
+  chanESyst[k_WWZ13p6]  = ( chanESystp[k_WWZ13p6] + chanESystm[k_WWZ13p6])/2.0;
+
+  chanETotp[k_WWZ13p6]   =  sqrt(
+                           chanEStatp[k_WWZ13p6]*chanEStatp[k_WWZ13p6]
+                           +
+                           chanESystp[k_WWZ13p6]*chanESystp[k_WWZ13p6]
+                            );
+  chanETotm[k_WWZ13p6]   =  sqrt(
+                           chanEStatm[k_WWZ13p6]*chanEStatm[k_WWZ13p6]
+                           +
+                           chanESystm[k_WWZ13p6]*chanESystm[k_WWZ13p6]
+                            );
+
+
+  chanETot[k_WWZ13p6]   =  sqrt(
+                           chanEStat[k_WWZ13p6]*chanEStat[k_WWZ13p6]
+                           +
+                           chanESyst[k_WWZ13p6]*chanESyst[k_WWZ13p6]
+                            );
+  chanTheo[k_WWZ13p6] =  (354.0) * scale_;
+  chanETheop[k_WWZ13p6] =  3.5 * scale_;
+  chanETheom[k_WWZ13p6] =  3.5 * scale_;
+  chanETheo[k_WWZ13p6]   =  (chanETheop[k_WWZ13p6]+chanETheom[k_WWZ13p6])/2.0;
+// Includes NLO WWZ and NNLO QCD + NLO EWK ZH No uncertainty given.
+
+  scale_ = 1.;
+
+// ZHWW 13
+
+  scale_ = 0.001;
+  chanMeasurement[k_ZHWW13] = "#scale[0.7]{ZH(H #rightarrow WW)}";
+  if (exportExeFormat) chanMeasurement[k_ZHWW13] = "ZH (H #rightarrow) WW";
+  if (condenseFormat) chanMeasurement[k_ZHWW13] = "VVV";
+  chanLumi[k_ZHWW13] = "138 fb^{-1}";
+  chanCadi[k_ZHWW13] = "SMP-24-015";
+  //chanPreprint[k_ZHWW13] = "2006.11191";
+  chanPreprint[k_ZHWW13] = "";
+  //chanPublication[k_ZHWW13] = "PRL 125 151802 (2020)";
+  chanPublication[k_ZHWW13] = "";
+
+  chanSigma[k_ZHWW13]  =  300 * scale_;
+  chanEStatp[k_ZHWW13]  =   120 * scale_;
+  chanEStatm[k_ZHWW13]  =   100 * scale_;
+  chanEStat[k_ZHWW13]  = ( chanEStatp[k_ZHWW13] + chanEStatm[k_ZHWW13])/2.0;
+
+  chanESystp[k_ZHWW13]  =    50* scale_;
+  chanESystm[k_ZHWW13]  =    40* scale_;
+  chanESyst[k_ZHWW13]  = ( chanESystp[k_ZHWW13] + chanESystm[k_ZHWW13])/2.0;
+
+  chanETotp[k_ZHWW13]   =  sqrt(
+                           chanEStatp[k_ZHWW13]*chanEStatp[k_ZHWW13]
+                           +
+                           chanESystp[k_ZHWW13]*chanESystp[k_ZHWW13]
+                            );
+  chanETotm[k_ZHWW13]   =  sqrt(
+                           chanEStatm[k_ZHWW13]*chanEStatm[k_ZHWW13]
+                           +
+                           chanESystm[k_ZHWW13]*chanESystm[k_ZHWW13]
+                            );
+
+
+  chanETot[k_ZHWW13]   =  sqrt(
+                           chanEStat[k_ZHWW13]*chanEStat[k_ZHWW13]
+                           +
+                           chanESyst[k_ZHWW13]*chanESyst[k_ZHWW13]
+                            );
+  chanTheo[k_ZHWW13] =  (354.0) * scale_;
+  chanETheop[k_ZHWW13] =  3.5 * scale_;
+  chanETheom[k_ZHWW13] =  3.5 * scale_;
+  chanETheo[k_ZHWW13]   =  (chanETheop[k_ZHWW13]+chanETheom[k_ZHWW13])/2.0;
+// Includes NLO WWZ and NNLO QCD + NLO EWK ZH No uncertainty given.
+
+  scale_ = 1.;
+
+// ZHWW 13p6
+
+  scale_ = 0.001;
+  chanMeasurement[k_ZHWW13p6] = "#scale[0.7]{ZH(H #rightarrow WW)}";
+  if (exportExeFormat) chanMeasurement[k_ZHWW13p6] = "ZH (H #rightarrow WW)";
+  if (condenseFormat) chanMeasurement[k_ZHWW13p6] = "VVV";
+  chanLumi[k_ZHWW13p6] = "62 fb^{-1}";
+  chanCadi[k_ZHWW13p6] = "SMP-24-015";
+  //chanPreprint[k_ZHWW13p6] = "2006.11191";
+  chanPreprint[k_ZHWW13p6] = "";
+  //chanPublication[k_ZHWW13p6] = "PRL 125 151802 (2020)";
+  chanPublication[k_ZHWW13p6] = "";
+
+  chanSigma[k_ZHWW13p6]  =  300 * scale_;
+  chanEStatp[k_ZHWW13p6]  =   120 * scale_;
+  chanEStatm[k_ZHWW13p6]  =   100 * scale_;
+  chanEStat[k_ZHWW13p6]  = ( chanEStatp[k_ZHWW13p6] + chanEStatm[k_ZHWW13p6])/2.0;
+
+  chanESystp[k_ZHWW13p6]  =    50* scale_;
+  chanESystm[k_ZHWW13p6]  =    40* scale_;
+  chanESyst[k_ZHWW13p6]  = ( chanESystp[k_ZHWW13p6] + chanESystm[k_ZHWW13p6])/2.0;
+
+  chanETotp[k_ZHWW13p6]   =  sqrt(
+                           chanEStatp[k_ZHWW13p6]*chanEStatp[k_ZHWW13p6]
+                           +
+                           chanESystp[k_ZHWW13p6]*chanESystp[k_ZHWW13p6]
+                            );
+  chanETotm[k_ZHWW13p6]   =  sqrt(
+                           chanEStatm[k_ZHWW13p6]*chanEStatm[k_ZHWW13p6]
+                           +
+                           chanESystm[k_ZHWW13p6]*chanESystm[k_ZHWW13p6]
+                            );
+
+
+  chanETot[k_ZHWW13p6]   =  sqrt(
+                           chanEStat[k_ZHWW13p6]*chanEStat[k_ZHWW13p6]
+                           +
+                           chanESyst[k_ZHWW13p6]*chanESyst[k_ZHWW13p6]
+                            );
+  chanTheo[k_ZHWW13p6] =  (354.0) * scale_;
+  chanETheop[k_ZHWW13p6] =  3.5 * scale_;
+  chanETheom[k_ZHWW13p6] =  3.5 * scale_;
+  chanETheo[k_ZHWW13p6]   =  (chanETheop[k_ZHWW13p6]+chanETheom[k_ZHWW13p6])/2.0;
+// Includes NLO WWZ and NNLO QCD + NLO EWK ZH No uncertainty given.
+
+  scale_ = 1.;
+
+// non-resonant WWZ 13
+
+  scale_ = 0.001;
+  chanMeasurement[k_nrWWZ13] = "#scale[0.7]{non-resonant WWZ}";
+  if (exportExeFormat) chanMeasurement[k_nrWWZ13] = "non-resonant WWZ";
+  if (condenseFormat) chanMeasurement[k_nrWWZ13] = "VVV";
+  chanLumi[k_nrWWZ13] = "138 fb^{-1}";
+  chanCadi[k_nrWWZ13] = "SMP-24-015";
+  //chanPreprint[k_nrWWZ13] = "2006.11191";
+  chanPreprint[k_nrWWZ13] = "";
+  //chanPublication[k_nrWWZ13] = "PRL 125 151802 (2020)";
+  chanPublication[k_nrWWZ13] = "";
+
+  chanSigma[k_nrWWZ13]  =  300 * scale_;
+  chanEStatp[k_nrWWZ13]  =   120 * scale_;
+  chanEStatm[k_nrWWZ13]  =   100 * scale_;
+  chanEStat[k_nrWWZ13]  = ( chanEStatp[k_nrWWZ13] + chanEStatm[k_nrWWZ13])/2.0;
+
+  chanESystp[k_nrWWZ13]  =    50* scale_;
+  chanESystm[k_nrWWZ13]  =    40* scale_;
+  chanESyst[k_nrWWZ13]  = ( chanESystp[k_nrWWZ13] + chanESystm[k_nrWWZ13])/2.0;
+
+  chanETotp[k_nrWWZ13]   =  sqrt(
+                           chanEStatp[k_nrWWZ13]*chanEStatp[k_nrWWZ13]
+                           +
+                           chanESystp[k_nrWWZ13]*chanESystp[k_nrWWZ13]
+                            );
+  chanETotm[k_nrWWZ13]   =  sqrt(
+                           chanEStatm[k_nrWWZ13]*chanEStatm[k_nrWWZ13]
+                           +
+                           chanESystm[k_nrWWZ13]*chanESystm[k_nrWWZ13]
+                            );
+
+
+  chanETot[k_nrWWZ13]   =  sqrt(
+                           chanEStat[k_nrWWZ13]*chanEStat[k_nrWWZ13]
+                           +
+                           chanESyst[k_nrWWZ13]*chanESyst[k_nrWWZ13]
+                            );
+  chanTheo[k_nrWWZ13] =  (354.0) * scale_;
+  chanETheop[k_nrWWZ13] =  3.5 * scale_;
+  chanETheom[k_nrWWZ13] =  3.5 * scale_;
+  chanETheo[k_nrWWZ13]   =  (chanETheop[k_nrWWZ13]+chanETheom[k_nrWWZ13])/2.0;
+// Includes NLO WWZ and NNLO QCD + NLO EWK ZH No uncertainty given.
+
+  scale_ = 1.;
+
+// non-resonant WWZ 13p6
+
+  scale_ = 0.001;
+  chanMeasurement[k_nrWWZ13p6] = "#scale[0.7]{non-resonant WWZ}";
+  if (exportExeFormat) chanMeasurement[k_nrWWZ13p6] = "non-resonant WWZ";
+  if (condenseFormat) chanMeasurement[k_nrWWZ13p6] = "VVV";
+  chanLumi[k_nrWWZ13p6] = "62 fb^{-1}";
+  chanCadi[k_nrWWZ13p6] = "SMP-24-015";
+  //chanPreprint[k_nrWWZ13p6] = "2006.11191";
+  chanPreprint[k_nrWWZ13p6] = "";
+  //chanPublication[k_nrWWZ13p6] = "PRL 125 151802 (2020)";
+  chanPublication[k_nrWWZ13p6] = "";
+
+  chanSigma[k_nrWWZ13p6]  =  300 * scale_;
+  chanEStatp[k_nrWWZ13p6]  =   120 * scale_;
+  chanEStatm[k_nrWWZ13p6]  =   100 * scale_;
+  chanEStat[k_nrWWZ13p6]  = ( chanEStatp[k_nrWWZ13p6] + chanEStatm[k_nrWWZ13p6])/2.0;
+
+  chanESystp[k_nrWWZ13p6]  =    50* scale_;
+  chanESystm[k_nrWWZ13p6]  =    40* scale_;
+  chanESyst[k_nrWWZ13p6]  = ( chanESystp[k_nrWWZ13p6] + chanESystm[k_nrWWZ13p6])/2.0;
+
+  chanETotp[k_nrWWZ13p6]   =  sqrt(
+                           chanEStatp[k_nrWWZ13p6]*chanEStatp[k_nrWWZ13p6]
+                           +
+                           chanESystp[k_nrWWZ13p6]*chanESystp[k_nrWWZ13p6]
+                            );
+  chanETotm[k_nrWWZ13p6]   =  sqrt(
+                           chanEStatm[k_nrWWZ13p6]*chanEStatm[k_nrWWZ13p6]
+                           +
+                           chanESystm[k_nrWWZ13p6]*chanESystm[k_nrWWZ13p6]
+                            );
+
+
+  chanETot[k_nrWWZ13p6]   =  sqrt(
+                           chanEStat[k_nrWWZ13p6]*chanEStat[k_nrWWZ13p6]
+                           +
+                           chanESyst[k_nrWWZ13p6]*chanESyst[k_nrWWZ13p6]
+                            );
+  chanTheo[k_nrWWZ13p6] =  (354.0) * scale_;
+  chanETheop[k_nrWWZ13p6] =  3.5 * scale_;
+  chanETheom[k_nrWWZ13p6] =  3.5 * scale_;
+  chanETheo[k_nrWWZ13p6]   =  (chanETheop[k_nrWWZ13p6]+chanETheom[k_nrWWZ13p6])/2.0;
 // Includes NLO WWZ and NNLO QCD + NLO EWK ZH No uncertainty given.
 
   scale_ = 1.;

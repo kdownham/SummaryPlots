@@ -312,11 +312,12 @@ public:
 	
 	txt[ntxt] = "7,        8,       13     TeV CMS measurements";
 	if (version==5) txt[ntxt] = "5.02,       7,          8,         13     TeV CMS measurements";
+	if (version==7) txt[ntxt] = "13,         13.6          TeV measurements";
 	txtSize[ntxt] = 0.03;
 	txtX[ntxt] = _ypos*0.52;
 	if (version==5) txtX[ntxt] = _ypos*0.32;
 	if (version==6) txtX[ntxt] = _ypos*0.442;
-	if (version==7) txtX[ntxt] = _ypos*0.42;
+	if (version==7) txtX[ntxt] = _ypos*0.60;
 	txtY[ntxt] = _sigma_theo;
  	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
@@ -355,12 +356,12 @@ public:
 	/* txtFont[ntxt] = 42; */
 	/* ntxt++; */
 
-	txt[ntxt] = "stat      sys";
+	txt[ntxt] = "#mu        stat      sys";
 	txtSize[ntxt] = 0.03;
 	txtX[ntxt] = _ypos*0.88;
 	if (version==5) txtX[ntxt] = _ypos*0.92;
 	if (version==6) txtX[ntxt] = _ypos*0.95;
-	if (version==7) txtX[ntxt] = _ypos*0.73;
+	if (version==7) txtX[ntxt] = _ypos*0.87;
 	txtY[ntxt] = _sigma_theo -2.4;
  	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
@@ -371,7 +372,7 @@ public:
         txtSize[ntxt] = 0.03;
         txtX[ntxt] = 1.0;
         if (version == 5) txtX[ntxt] = 0.5;
-        if (version == 7) txtX[ntxt] = 0.25;
+        if (version == 7) txtX[ntxt] = 1.00;
         txtY[ntxt] = _sigma_theo;
         txtAlign[ntxt] = 22;
         txtFont[ntxt] = 42;
@@ -435,7 +436,7 @@ SigmaR(float ymin=0.009, float ymax=900000 )
   float xAxisMax = 4.25;
 
   if (version == 6) xAxisMax = 4.9;
-  if (version == 7) xAxisMax = 8.0;
+  if (version == 7) xAxisMax = 3.0;
   if (PaperVersion && version == 6) xAxisMin = -1.4;
   if (PaperVersion && version == 6) xAxisMax = 3.7;
   if (PaperVersion && version == 5) xAxisMin = -0.8;
